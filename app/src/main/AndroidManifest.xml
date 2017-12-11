@@ -17,7 +17,7 @@
             android:process=":extprocess"
             />
         <service
-            android:name=".BGService"
+            android:name=".BoundService"
             android:process=":extprocess"
             />
     </application>

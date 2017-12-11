@@ -17,6 +17,11 @@ public class FGService extends Service {
     }
 
     @Override
+    public int onStartCommand(final Intent intent, final int flags, final int startId) {
+        return START_NOT_STICKY;
+    }
+
+    @Override
     public IBinder onBind(final Intent intent) {
         return null;
     }
